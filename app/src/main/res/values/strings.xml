@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+    <string-array name="name">
+        <item>Photo</item>
+        <item>Map</item>
+        <item>Likes</item>
+
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

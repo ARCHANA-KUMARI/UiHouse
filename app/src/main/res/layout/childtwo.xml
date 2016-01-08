@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+   >
+
+    <RelativeLayout
+
+        android:id="@+id/layoutone"
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/fevoriteimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:src="@drawable/ic_favorite_border_black_18dp" />
+
+        <TextView
+            android:id="@+id/firsttextofchildtwo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/fevoriteimage"
+            android:text="16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layouttwo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/layoutone">
+
+        <ImageView
+            android:id="@+id/moreimag"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_more_horiz_black_18dp" />
+
+        <TextView
+            android:id="@+id/secondtextofchildtwo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/moreimag"
+            android:text="More"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutthree"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/layouttwo">
+
+        <TextView
+            android:id="@+id/thirdtextofchildtwo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Map"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

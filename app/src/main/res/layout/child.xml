@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/heading"
+    android:text="839 pads withing 4.9 miles of Santa Monica"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imageone"
+        android:id="@+id/image"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ok"
+           android:id="@+id/okbtn"
+           android:layout_marginTop="30dp"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="34 min ago"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="160dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        android:id="@+id/text2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="101 Ashley St."
+        android:textColor="@android:color/white"
+        android:id="@+id/text3"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/text2"
+
+       />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:id="@+id/dolorimage"
+        android:src="@drawable/ic_attach_money_white_18dp"
+        android:layout_toRightOf="@id/text3"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/okbtn"
+        />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="1,500"
+          android:layout_toRightOf="@id/dolorimage"
+          android:textColor="@android:color/white"
+          android:layout_marginTop="175dp"
+          android:textStyle="bold"
+          android:id="@+id/rupees"
+          />
+     <ImageView
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:src="@drawable/ic_local_taxi_white_18dp"
+         android:layout_toRightOf="@id/rupees"
+         android:id="@+id/car"
+         android:layout_marginTop="165dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/one"
+         android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/car"
+        android:layout_marginTop="175dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+     <ImageView
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:id="@+id/localgrocery"
+         android:layout_toRightOf="@id/one"
+         android:layout_marginLeft="5dp"
+         android:src="@drawable/ic_local_grocery_store_white_18dp"
+         android:layout_marginTop="165dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/oneright"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/localgrocery"
+        android:layout_marginTop="175dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

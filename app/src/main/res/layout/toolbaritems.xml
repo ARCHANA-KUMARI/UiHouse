@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+
+
+    android:layout_height="match_parent">
+<!-- <ImageButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/home"
+     android:layout_weight="1"
+     android:src="@drawable/ic_home_white_18dp"/>-->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/home"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_home_white_18dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/chat"
+        android:layout_toRightOf="@id/home"
+        android:layout_marginLeft="40dp"
+
+        android:src="@drawable/ic_chat_white_18dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/dolor"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/chat"
+
+        android:src="@drawable/bankwhite"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/accountbank"
+        android:layout_toRightOf="@id/dolor"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_account_circle_white_18dp"/>
+</RelativeLayout>
